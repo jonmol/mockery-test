@@ -10,7 +10,9 @@ generate.go:3: running "mockery": exit status 1
 mockery version:
 ```
 mockery-test$ mockery --all
-22 Mar 23 10:25 CET INF Starting mockery dry-run=false version=v2.9.4
-22 Mar 23 10:25 CET INF Walking dry-run=false version=v2.9.4
-2023/03/22 10:25:05 internal error: package "context" without types was imported from "github.com/jonmol/mockery-test"
+22 Mar 23 10:31 CET INF Starting mockery dry-run=false version=v2.15.0
+22 Mar 23 10:31 CET INF Walking dry-run=false version=v2.15.0
+2023/03/22 10:31:46 internal error: package "context" without types was imported from "github.com/PlusPeter/hotelcalifornia/server/handlers"
+mocks.go:3: running "mockery": exit status 1
 ```
+Switching to 1.17 works
